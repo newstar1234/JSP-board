@@ -22,7 +22,7 @@ public class fileDownloadOk implements Action {
 		req.setCharacterEncoding("UTF-8");
 		resp.setCharacterEncoding("UTF-8");
 		
-		String saveFolder = "C:\\jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
+		String saveFolder = "C:\\2-jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
 		String fileName = req.getParameter("fileName");
 		boolean check = true;
 		

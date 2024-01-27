@@ -16,7 +16,7 @@ public class BoardDeleteOk implements Action {
 	@Override
 	public ActionForword execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 
-		String saveFolder = "C:\\jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
+		String saveFolder = "C:\\2-jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
 		FilesDAO fDao = new FilesDAO();
 		BoardDAO bDao = new BoardDAO();
 		ActionForword forward = new ActionForword();

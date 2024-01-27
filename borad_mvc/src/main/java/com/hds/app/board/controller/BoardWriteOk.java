@@ -16,7 +16,7 @@ public class BoardWriteOk implements Action {
 	@Override
 	public ActionForword execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		
-		String saveFolder = "C:\\jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
+		String saveFolder = "C:\\2-jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
 		int fileSize = 1024 * 1024 * 5; //5메가바이트
 		
 		BoardDAO bDao = new BoardDAO();

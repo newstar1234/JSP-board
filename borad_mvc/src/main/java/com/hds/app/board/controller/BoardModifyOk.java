@@ -21,7 +21,7 @@ public class BoardModifyOk implements Action{
 		req.setCharacterEncoding("UTF-8");
 		resp.setCharacterEncoding("UTF-8");
 		
-		String saveFolder = "C:\\jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
+		String saveFolder = "C:\\2-jsp_ksb\\workspace\\borad_mvc\\WebContent\\upload";
 		int fileSize = 5 * 1024 * 1024;
 		BoardVO board = new BoardVO();
 		BoardDAO  bDao = new BoardDAO();
